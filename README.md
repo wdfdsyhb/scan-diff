@@ -1,5 +1,7 @@
 # scan-diff
 
+[![CI](https://github.com/wdfdsyhb/scan-diff/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/scan-diff/actions/workflows/tests.yml)
+
 **Snapshot & diff for recon target lists.** Save what you found today, diff it against tomorrow's scan — new subdomains, dropped hosts, nothing slipping through.
 
 侦察清单快照 diff：今天存一份，明天扫完对比，新出现/消失的资产一目了然。
