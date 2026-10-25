@@ -1,10 +1,12 @@
-# scan-diff
+# scan-diff · 侦察清单快照对比
 
 [![CI](https://github.com/wdfdsyhb/scan-diff/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/scan-diff/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 
-**Snapshot & diff for recon target lists.** Save what you found today, diff it against tomorrow's scan — new subdomains, dropped hosts, nothing slipping through.
-
-侦察清单快照 diff：今天存一份，明天扫完对比，新出现/消失的资产一目了然。
+> 把侦察输出存成带时间戳的 JSON 快照，一条命令 diff 出新增/消失的资产——不用再肉眼对清单。
+>
+> English: Save each recon list as a timestamped JSON snapshot, then diff scans in one command — new and dropped assets surface themselves.
 
 ## Why
 
@@ -44,3 +46,9 @@ scan-diff diff old.json new.json --fail               # 有变化时退出码 2�
 ## License
 
 MIT
+
+---
+
+## English
+
+Full English documentation: [README_EN.md](README_EN.md)
